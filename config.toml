@@ -1,0 +1,4 @@
+baseURL = "https://ryantenor.io/"
+languageCode = "en-us"
+title = "Ryan Tenorio's Blog"
+theme = 'terminal'
