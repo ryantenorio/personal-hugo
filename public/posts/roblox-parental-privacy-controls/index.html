@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Parental Controls, Privacy, and Roblox :: Ryan Tenorio&#39;s Blog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Parental Use of Privacy Controls in Online Games to Protect Children Read the paper here
+This paper was written in 2021 as part of a group project for a master&amp;rsquo;s course on Usable Privacy and Security at UC Berkeley School of Information as part of the Cybersecurity (MICS) program. The paper&amp;rsquo;s focus was on the game Roblox, surveying parents on their privacy opinions and their use/awareness of the different parental and privacy controls available in Roblox for their children." />
+<meta name="keywords" content="privacy, privacy engineering, software engineering, Pokémon" />
+<meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://ryantenor.io/posts/roblox-parental-privacy-controls/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://ryantenor.io/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="https://ryantenor.io/img/theme-colors/blue.png">
+  <link rel="apple-touch-icon" href="https://ryantenor.io/img/theme-colors/blue.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="leeto" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Parental Controls, Privacy, and Roblox">
+<meta property="og:description" content="Parental Use of Privacy Controls in Online Games to Protect Children Read the paper here
+This paper was written in 2021 as part of a group project for a master&amp;rsquo;s course on Usable Privacy and Security at UC Berkeley School of Information as part of the Cybersecurity (MICS) program. The paper&amp;rsquo;s focus was on the game Roblox, surveying parents on their privacy opinions and their use/awareness of the different parental and privacy controls available in Roblox for their children." />
+<meta property="og:url" content="https://ryantenor.io/posts/roblox-parental-privacy-controls/" />
+<meta property="og:site_name" content="Ryan Tenorio&#39;s Blog" />
+
+  
+    <meta property="og:image" content="https://ryantenor.io/img/favicon/blue.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2023-01-26 23:32:04 -0800 PST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="blue">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Ryan Tenorio
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://ryantenor.io/posts/roblox-parental-privacy-controls/">Parental Controls, Privacy, and Roblox</a>
+  </h1>
+  <div class="post-meta">
+    
+      <time class="post-date">
+        2023-01-26 ::
+        
+      </time>
+    
+    
+    
+  </div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h2 id="parental-use-of-privacy-controls-in-online-games-to-protect-children">Parental Use of Privacy Controls in Online Games to Protect Children<a href="#parental-use-of-privacy-controls-in-online-games-to-protect-children" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://ryantenor.io/pdf/privacy-roblox.pdf">Read the paper here</a></p>
+<p>This paper was written in 2021 as part of a group project for a master&rsquo;s course on Usable Privacy and Security at UC Berkeley School of Information as part of the Cybersecurity (MICS) program. The paper&rsquo;s focus was on the game Roblox, surveying parents on their privacy opinions and their use/awareness of the different parental and privacy controls available in Roblox for their children. The course itself was a really interesting approach on the human computer interaction (HCI) component of security and privacy, and a key motivator to move my career focus to privacy.</p>
+<p>As a part-time program, we opted not to go through the IRB and peer review process for official publishing, but I found some of the takeaways from the research personally enlightening and present it here as-is in the link above for those who might also find it interesting. The findings we took away are also summarized below:</p>
+<h3 id="privacy-pragmatists-use-blanket-controls-the-most">Privacy Pragmatists use &ldquo;Blanket&rdquo; Controls the Most<a href="#privacy-pragmatists-use-blanket-controls-the-most" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>Roblox has a feature called &ldquo;Account Restrictions.&rdquo; It&rsquo;s a single toggle setting that if enabled, turned most of the opt-in controls on. We found that privacy pragmatists, a term used to describe people who feel trust, and by extension their&rsquo;s or their child&rsquo;s data, is earned but are willing to allow incursions into their privacy for other benefits, were most likely to use this &ldquo;set it and forget it&rdquo; method of privacy. The control is to the point and easy to use (parents knowing this feature existed however, was another story), which aligns well with the worldview of someone who cares about privacy in concept and doesn&rsquo;t want to think too much about how to exercise or protect it.</p>
+<h3 id="gamer-parents-behave-differently-than-non-gamer-parents">Gamer Parents behave differently than Non-Gamer Parents<a href="#gamer-parents-behave-differently-than-non-gamer-parents" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>We found that gamer parents were statistically more likely to use multi-factor authentication to secure their child&rsquo;s Roblox account. We also found that the majority of parents who did not add chat restrictions to their children&rsquo;s accounts were gamers. One possible explanation
+is that parents who are online gamers understand the risks and benefits to social interaction in online games, and may rely on education outside of the game to inform their child&rsquo;s behavior.</p>
+<h3 id="parents-were-more-likely-to-be-unaware-the-privacy-controls-existed-in-the-first-place-than-not-use-them">Parents were more likely to be unaware the privacy controls existed in the first place than not use them.<a href="#parents-were-more-likely-to-be-unaware-the-privacy-controls-existed-in-the-first-place-than-not-use-them" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>The survey results found some contradicting statements across participants, such as those who claimed to monitor their child&rsquo;s online activity generally but were unaware that there were built-in tools to help them do so in Roblox. In our cataloguing of the privacy/parental controls available for parents, we found the features spread across multiple pages. Even if a parent would like to exercise more control over their child&rsquo;s interactions within Roblox, that attitude is for naught if they can&rsquo;t find, or even know about, the tools to begin with.</p>
+
+      </div></div>
+
+  
+    
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2023 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

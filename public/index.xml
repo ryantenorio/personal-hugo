@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryan Tenorio&#39;s Blog</title>
+    <link>https://ryantenor.io/</link>
+    <description>Recent content on Ryan Tenorio&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jan 2023 23:32:04 -0800</lastBuildDate><atom:link href="https://ryantenor.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Parental Controls, Privacy, and Roblox</title>
+      <link>https://ryantenor.io/posts/roblox-parental-privacy-controls/</link>
+      <pubDate>Thu, 26 Jan 2023 23:32:04 -0800</pubDate>
+      
+      <guid>https://ryantenor.io/posts/roblox-parental-privacy-controls/</guid>
+      <description>Parental Use of Privacy Controls in Online Games to Protect Children Read the paper here
+This paper was written in 2021 as part of a group project for a master&amp;rsquo;s course on Usable Privacy and Security at UC Berkeley School of Information as part of the Cybersecurity (MICS) program. The paper&amp;rsquo;s focus was on the game Roblox, surveying parents on their privacy opinions and their use/awareness of the different parental and privacy controls available in Roblox for their children.</description>
+      <content>&lt;h2 id=&#34;parental-use-of-privacy-controls-in-online-games-to-protect-children&#34;&gt;Parental Use of Privacy Controls in Online Games to Protect Children&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://ryantenor.io/pdf/privacy-roblox.pdf&#34;&gt;Read the paper here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This paper was written in 2021 as part of a group project for a master&amp;rsquo;s course on Usable Privacy and Security at UC Berkeley School of Information as part of the Cybersecurity (MICS) program. The paper&amp;rsquo;s focus was on the game Roblox, surveying parents on their privacy opinions and their use/awareness of the different parental and privacy controls available in Roblox for their children. The course itself was a really interesting approach on the human computer interaction (HCI) component of security and privacy, and a key motivator to move my career focus to privacy.&lt;/p&gt;
+&lt;p&gt;As a part-time program, we opted not to go through the IRB and peer review process for official publishing, but I found some of the takeaways from the research personally enlightening and present it here as-is in the link above for those who might also find it interesting. The findings we took away are also summarized below:&lt;/p&gt;
+&lt;h3 id=&#34;privacy-pragmatists-use-blanket-controls-the-most&#34;&gt;Privacy Pragmatists use &amp;ldquo;Blanket&amp;rdquo; Controls the Most&lt;/h3&gt;
+&lt;p&gt;Roblox has a feature called &amp;ldquo;Account Restrictions.&amp;rdquo; It&amp;rsquo;s a single toggle setting that if enabled, turned most of the opt-in controls on. We found that privacy pragmatists, a term used to describe people who feel trust, and by extension their&amp;rsquo;s or their child&amp;rsquo;s data, is earned but are willing to allow incursions into their privacy for other benefits, were most likely to use this &amp;ldquo;set it and forget it&amp;rdquo; method of privacy. The control is to the point and easy to use (parents knowing this feature existed however, was another story), which aligns well with the worldview of someone who cares about privacy in concept and doesn&amp;rsquo;t want to think too much about how to exercise or protect it.&lt;/p&gt;
+&lt;h3 id=&#34;gamer-parents-behave-differently-than-non-gamer-parents&#34;&gt;Gamer Parents behave differently than Non-Gamer Parents&lt;/h3&gt;
+&lt;p&gt;We found that gamer parents were statistically more likely to use multi-factor authentication to secure their child&amp;rsquo;s Roblox account. We also found that the majority of parents who did not add chat restrictions to their children&amp;rsquo;s accounts were gamers. One possible explanation
+is that parents who are online gamers understand the risks and benefits to social interaction in online games, and may rely on education outside of the game to inform their child&amp;rsquo;s behavior.&lt;/p&gt;
+&lt;h3 id=&#34;parents-were-more-likely-to-be-unaware-the-privacy-controls-existed-in-the-first-place-than-not-use-them&#34;&gt;Parents were more likely to be unaware the privacy controls existed in the first place than not use them.&lt;/h3&gt;
+&lt;p&gt;The survey results found some contradicting statements across participants, such as those who claimed to monitor their child&amp;rsquo;s online activity generally but were unaware that there were built-in tools to help them do so in Roblox. In our cataloguing of the privacy/parental controls available for parents, we found the features spread across multiple pages. Even if a parent would like to exercise more control over their child&amp;rsquo;s interactions within Roblox, that attitude is for naught if they can&amp;rsquo;t find, or even know about, the tools to begin with.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
