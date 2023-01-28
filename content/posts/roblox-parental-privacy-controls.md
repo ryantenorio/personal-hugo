@@ -5,7 +5,7 @@ draft: false
 ---
 ## Parental Use of Privacy Controls in Online Games to Protect Children
 
-[Read the paper here](https://ryantenor.io/pdf/privacy-roblox.pdf)
+[Read the paper here](https://ryantenor.io/pdf/privacy-roblox-2.pdf)
 
 This paper was written in 2021 as part of a group project for a master's course on Usable Privacy and Security at UC Berkeley School of Information as part of the Cybersecurity (MICS) program. The paper's focus was on the game Roblox, surveying parents on their privacy opinions and their use/awareness of the different parental and privacy controls available in Roblox for their children. The course itself was a really interesting approach on the human computer interaction (HCI) component of security and privacy, and a key motivator to move my career focus to privacy.
 
